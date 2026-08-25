@@ -1,0 +1,25 @@
+{
+  "comment": "B-roll de domínio público (NASA Image and Video Library, sem API key). setup.ps1 baixa a rendition ~medium.mp4 (fallback ~small/~mobile) do manifest https://images-api.nasa.gov/asset/<nasa_id> e aplica trim quando indicado.",
+  "license": "NASA media: domínio público (uso não implica endosso da NASA)",
+  "materials": [
+    {
+      "file": "nasa1.mp4",
+      "nasa_id": "NHQ_2019_0626_Earth Views from the ISS",
+      "trim": { "start_seconds": 300, "duration_seconds": 60 },
+      "note": "rendition medium tem 740MB — trim obrigatório"
+    },
+    { "file": "nasa2.mp4", "nasa_id": "GSFC_20190513_m4714_Lee_Lincoln_Scarp_Moon_Flyover" },
+    {
+      "file": "nasa3.mp4",
+      "nasa_id": "GSFC_20160426_SDO_m12224_SolarFlare",
+      "trim": { "start_seconds": 10, "duration_seconds": 55 },
+      "note": "0-8s é cartela de texto em fundo preto"
+    },
+    {
+      "file": "nasa4.mp4",
+      "nasa_id": "GSFC_20140404_SDO_m11517_Flare",
+      "trim": { "start_seconds": 15, "duration_seconds": 40 },
+      "note": "início é vinheta NASA Heliophysics; fim é animação de satélite"
+    }
+  ]
+}

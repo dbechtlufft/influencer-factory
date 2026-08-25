@@ -1,0 +1,38 @@
+# --- base claude-base (repo-bootstrap): universal, stack-agnostico ---
+# Lixo de SO
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Segredos: nunca versionar (conventions.md); versione so ponteiros
+# (alinhado com o /.gitignore do claude-base — mudou la, mude aqui)
+.env
+.env.*
+!.env.example
+!.env.sample
+*.session
+.credentials.json
+*.key
+*.pem
+
+# Claude Code: arquivos locais/pessoais (nao versionados)
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Volante claude-base: captura local do task-observer (per-repo, nao versionada
+# em repos que nao sao sobre skills)
+skill-observations/
+
+# --- stack: Python (ferramentas vendoradas + venv) ---
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- fabrica: terceiros vendorados e saidas pesadas (nao versionar) ---
+MoneyPrinterTurbo/
+materials/
+output/
+*.mp4
+*.mp3
+*.wav

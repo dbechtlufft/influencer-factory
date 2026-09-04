@@ -1,5 +1,10 @@
 # SESSION_LOG — influencer-factory
 
+## 2026-09-04 — Brief do teste TikTok atualizado (decisões fechadas)
+
+Cópia do brief em knowledge/do-balcao substituída pela versão com decisões de 04/09 (Shopee+Hotmart, nichos mulher 40+ e casa, 2 contas business, vídeos 20–30s, checklist pré-sessão e aprendizados do podcast Sidney Giorni). Sessão de execução (run_batch.py + 10 vídeos) começa após o checklist do Diego.
+
+
 ## 2026-08-25 — Bootstrap do repo + MPT e2e validado (fase 0)
 
 Repo criado no padrão (a casca "Nova pasta" ficou para o Diego apagar — rename trava com a
